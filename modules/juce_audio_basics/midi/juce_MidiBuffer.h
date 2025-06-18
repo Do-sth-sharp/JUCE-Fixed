@@ -295,7 +295,7 @@ public:
 
         @see MidiBuffer
     */
-    class [[deprecated]] JUCE_API  Iterator
+    class JUCE_API [[deprecated]] Iterator
     {
     public:
         //==============================================================================
