@@ -240,7 +240,7 @@ extern LocalRef<jobject> getMainActivity() noexcept;
 
 //==============================================================================
 struct SystemJavaClassComparator;
-class JNIClassBase
+class JUCE_API JNIClassBase
 {
 public:
     JNIClassBase (const char* classPath, int minSDK, const uint8* byteCode, size_t byteCodeSize);
