@@ -161,7 +161,7 @@ void FIR::Coefficients<NumericType>::Coefficients::normalise() noexcept
 }
 
 //==============================================================================
-template struct FIR::Coefficients<float>;
-template struct FIR::Coefficients<double>;
+template struct JUCE_API FIR::Coefficients<float>;
+template struct JUCE_API FIR::Coefficients<double>;
 
 } // namespace juce::dsp

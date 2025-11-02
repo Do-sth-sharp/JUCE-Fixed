@@ -701,7 +701,7 @@ typename FilterDesign<FloatType>::IIRPolyphaseAllpassStructure
 }
 
 
-template struct FilterDesign<float>;
-template struct FilterDesign<double>;
+template struct JUCE_API FilterDesign<float>;
+template struct JUCE_API FilterDesign<double>;
 
 } // namespace juce::dsp

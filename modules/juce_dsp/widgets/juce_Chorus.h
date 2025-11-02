@@ -166,10 +166,10 @@ private:
     SampleType rate = 1.0, depth = 0.25, feedback = 0.0, mix = 0.5,
                centreDelay = 7.0;
 
-    static constexpr SampleType maxDepth               = 1.0,
-                                maxCentreDelayMs       = 100.0,
-                                oscVolumeMultiplier    = 0.5,
-                                maximumDelayModulation = 20.0;
+    inline static constexpr SampleType maxDepth               = 1.0;
+    inline static constexpr SampleType maxCentreDelayMs       = 100.0;
+    inline static constexpr SampleType oscVolumeMultiplier    = 0.5;
+    inline static constexpr SampleType maximumDelayModulation = 20.0;
 };
 
 } // namespace juce::dsp

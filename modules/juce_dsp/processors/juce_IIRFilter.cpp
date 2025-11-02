@@ -277,8 +277,8 @@ std::array<NumericType, 6> ArrayCoefficients<NumericType>::makePeakFilter (doubl
     return { { 1 + alphaTimesA, c2, 1 - alphaTimesA, 1 + alphaOverA, c2, 1 - alphaOverA } };
 }
 
-template struct ArrayCoefficients<float>;
-template struct ArrayCoefficients<double>;
+template struct JUCE_API ArrayCoefficients<float>;
+template struct JUCE_API ArrayCoefficients<double>;
 
 //==============================================================================
 template <typename NumericType>
@@ -576,7 +576,7 @@ void Coefficients<NumericType>::getPhaseForFrequencyArray (double* frequencies, 
     }
 }
 
-template struct Coefficients<float>;
-template struct Coefficients<double>;
+template struct JUCE_API Coefficients<float>;
+template struct JUCE_API Coefficients<double>;
 
 } // namespace juce::dsp::IIR
