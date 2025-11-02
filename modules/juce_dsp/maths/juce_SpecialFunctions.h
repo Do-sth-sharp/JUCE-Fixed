@@ -39,7 +39,7 @@ namespace juce::dsp
 
     @tags{DSP}
 */
-struct SpecialFunctions
+struct JUCE_API SpecialFunctions
 {
     /** Computes the modified Bessel function of the first kind I0 for a
         given double value x. Modified Bessel functions are useful to solve

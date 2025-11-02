@@ -40,7 +40,7 @@ namespace juce::dsp
 
     @tags{DSP}
 */
-struct FastMathApproximations
+struct JUCE_API FastMathApproximations
 {
     /** Provides a fast approximation of the function cosh(x) using a Pade approximant
         continued fraction, calculated sample by sample.

@@ -44,7 +44,7 @@ namespace juce::dsp
 
     @tags{DSP}
 */
-struct ProcessorBase
+struct JUCE_API ProcessorBase
 {
     ProcessorBase() = default;
     virtual ~ProcessorBase() = default;

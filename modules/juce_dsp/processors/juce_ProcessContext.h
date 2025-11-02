@@ -41,7 +41,7 @@ namespace juce::dsp
 
     @tags{DSP}
 */
-struct ProcessSpec
+struct JUCE_API ProcessSpec
 {
     /** The sample rate that will be used for the data that is sent to the processor. */
     double sampleRate;
@@ -73,7 +73,7 @@ constexpr bool operator!= (const ProcessSpec& a, const ProcessSpec& b) { return 
 
     @tags{DSP}
 */
-struct ProcessorState  : public ReferenceCountedObject
+struct JUCE_API ProcessorState  : public ReferenceCountedObject
 {
     /** The ProcessorState structure is ref-counted, so this is a handy type that can be used
         as a pointer to one.

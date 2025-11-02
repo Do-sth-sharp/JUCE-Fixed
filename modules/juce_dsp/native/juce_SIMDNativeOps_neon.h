@@ -64,7 +64,7 @@ struct SIMDNativeOps;
     @tags{DSP}
 */
 template <>
-struct SIMDNativeOps<uint32_t>
+struct JUCE_API SIMDNativeOps<uint32_t>
 {
     //==============================================================================
     using vSIMDType = uint32x4_t;
@@ -110,7 +110,7 @@ struct SIMDNativeOps<uint32_t>
     @tags{DSP}
 */
 template <>
-struct SIMDNativeOps<int32_t>
+struct JUCE_API SIMDNativeOps<int32_t>
 {
     //==============================================================================
     using vSIMDType = int32x4_t;
@@ -157,7 +157,7 @@ struct SIMDNativeOps<int32_t>
     @tags{DSP}
 */
 template <>
-struct SIMDNativeOps<int8_t>
+struct JUCE_API SIMDNativeOps<int8_t>
 {
     //==============================================================================
     using vSIMDType = int8x16_t;
@@ -198,7 +198,7 @@ struct SIMDNativeOps<int8_t>
     @tags{DSP}
 */
 template <>
-struct SIMDNativeOps<uint8_t>
+struct JUCE_API SIMDNativeOps<uint8_t>
 {
     //==============================================================================
     using vSIMDType = uint8x16_t;
@@ -239,7 +239,7 @@ struct SIMDNativeOps<uint8_t>
     @tags{DSP}
 */
 template <>
-struct SIMDNativeOps<int16_t>
+struct JUCE_API SIMDNativeOps<int16_t>
 {
     //==============================================================================
     using vSIMDType = int16x8_t;
@@ -281,7 +281,7 @@ struct SIMDNativeOps<int16_t>
     @tags{DSP}
 */
 template <>
-struct SIMDNativeOps<uint16_t>
+struct JUCE_API SIMDNativeOps<uint16_t>
 {
     //==============================================================================
     using vSIMDType = uint16x8_t;
@@ -322,7 +322,7 @@ struct SIMDNativeOps<uint16_t>
     @tags{DSP}
 */
 template <>
-struct SIMDNativeOps<int64_t>
+struct JUCE_API SIMDNativeOps<int64_t>
 {
     //==============================================================================
     using vSIMDType = int64x2_t;
@@ -364,7 +364,7 @@ struct SIMDNativeOps<int64_t>
     @tags{DSP}
 */
 template <>
-struct SIMDNativeOps<uint64_t>
+struct JUCE_API SIMDNativeOps<uint64_t>
 {
     //==============================================================================
     using vSIMDType = uint64x2_t;
@@ -405,7 +405,7 @@ struct SIMDNativeOps<uint64_t>
     @tags{DSP}
 */
 template <>
-struct SIMDNativeOps<float>
+struct JUCE_API SIMDNativeOps<float>
 {
     //==============================================================================
     using vSIMDType = float32x4_t;
@@ -468,7 +468,7 @@ struct SIMDNativeOps<float>
 */
 #if JUCE_64BIT
 template <>
-struct SIMDNativeOps<double>
+struct JUCE_API SIMDNativeOps<double>
 {
     //==============================================================================
     using vSIMDType = float64x2_t;
@@ -508,7 +508,7 @@ struct SIMDNativeOps<double>
 };
 #else
 template <>
-struct SIMDNativeOps<double>
+struct JUCE_API SIMDNativeOps<double>
 {
     //==============================================================================
     using vSIMDType = struct { double v[2]; };

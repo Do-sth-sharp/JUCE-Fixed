@@ -40,7 +40,7 @@ namespace juce::dsp
 
     @tags{DSP}
 */
-class Reverb
+class JUCE_API Reverb
 {
 public:
     //==============================================================================
