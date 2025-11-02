@@ -209,8 +209,8 @@ void DryWetMixer<SampleType>::update()
 }
 
 //==============================================================================
-template class DryWetMixer<float>;
-template class DryWetMixer<double>;
+template class JUCE_API DryWetMixer<float>;
+template class JUCE_API DryWetMixer<double>;
 
 
 //==============================================================================

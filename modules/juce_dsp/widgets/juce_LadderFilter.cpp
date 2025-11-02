@@ -176,7 +176,7 @@ void LadderFilter<SampleType>::setSampleRate (SampleType newValue) noexcept
 }
 
 //==============================================================================
-template class LadderFilter<float>;
-template class LadderFilter<double>;
+template class JUCE_API LadderFilter<float>;
+template class JUCE_API LadderFilter<double>;
 
 } // namespace juce::dsp

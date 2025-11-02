@@ -130,7 +130,7 @@ SampleType BallisticsFilter<SampleType>::calculateLimitedCte (SampleType timeMs)
 }
 
 //==============================================================================
-template class BallisticsFilter<float>;
-template class BallisticsFilter<double>;
+template class JUCE_API BallisticsFilter<float>;
+template class JUCE_API BallisticsFilter<double>;
 
 } // namespace juce::dsp

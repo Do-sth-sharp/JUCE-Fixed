@@ -317,7 +317,7 @@ String Matrix<ElementType>::toString() const
     return result.toString();
 }
 
-template class Matrix<float>;
-template class Matrix<double>;
+template class JUCE_API Matrix<float>;
+template class JUCE_API Matrix<double>;
 
 } // namespace juce::dsp

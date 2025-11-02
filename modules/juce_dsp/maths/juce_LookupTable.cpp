@@ -153,10 +153,10 @@ double LookupTableTransform<FloatType>::calculateRelativeDifference (double x, d
 }
 
 //==============================================================================
-template class LookupTable<float>;
-template class LookupTable<double>;
+template class JUCE_API LookupTable<float>;
+template class JUCE_API LookupTable<double>;
 
-template class LookupTableTransform<float>;
-template class LookupTableTransform<double>;
+template class JUCE_API LookupTableTransform<float>;
+template class JUCE_API LookupTableTransform<double>;
 
 } // namespace juce::dsp

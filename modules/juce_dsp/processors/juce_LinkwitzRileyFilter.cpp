@@ -149,7 +149,7 @@ void LinkwitzRileyFilter<SampleType>::update()
 }
 
 //==============================================================================
-template class LinkwitzRileyFilter<float>;
-template class LinkwitzRileyFilter<double>;
+template class JUCE_API LinkwitzRileyFilter<float>;
+template class JUCE_API LinkwitzRileyFilter<double>;
 
 } // namespace juce::dsp

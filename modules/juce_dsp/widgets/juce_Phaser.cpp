@@ -154,7 +154,7 @@ void Phaser<SampleType>::update()
 }
 
 //==============================================================================
-template class Phaser<float>;
-template class Phaser<double>;
+template class JUCE_API Phaser<float>;
+template class JUCE_API Phaser<double>;
 
 } // namespace juce::dsp

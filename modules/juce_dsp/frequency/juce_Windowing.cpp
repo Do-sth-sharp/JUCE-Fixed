@@ -196,7 +196,7 @@ const char* WindowingFunction<FloatType>::getWindowingMethodName (WindowingMetho
     }
 }
 
-template class WindowingFunction<float>;
-template class WindowingFunction<double>;
+template class JUCE_API WindowingFunction<float>;
+template class JUCE_API WindowingFunction<double>;
 
 } // namespace juce::dsp

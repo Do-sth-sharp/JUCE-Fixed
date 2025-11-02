@@ -137,7 +137,7 @@ void StateVariableTPTFilter<SampleType>::update()
 }
 
 //==============================================================================
-template class StateVariableTPTFilter<float>;
-template class StateVariableTPTFilter<double>;
+template class JUCE_API StateVariableTPTFilter<float>;
+template class JUCE_API StateVariableTPTFilter<double>;
 
 } // namespace juce::dsp

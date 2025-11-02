@@ -98,7 +98,7 @@ void Limiter<SampleType>::update()
 }
 
 //==============================================================================
-template class Limiter<float>;
-template class Limiter<double>;
+template class JUCE_API Limiter<float>;
+template class JUCE_API Limiter<double>;
 
 } // namespace juce::dsp

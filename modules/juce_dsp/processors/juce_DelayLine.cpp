@@ -132,13 +132,13 @@ SampleType DelayLine<SampleType, InterpolationType>::popSample (int channel, Sam
 }
 
 //==============================================================================
-template class DelayLine<float,  DelayLineInterpolationTypes::None>;
-template class DelayLine<double, DelayLineInterpolationTypes::None>;
-template class DelayLine<float,  DelayLineInterpolationTypes::Linear>;
-template class DelayLine<double, DelayLineInterpolationTypes::Linear>;
-template class DelayLine<float,  DelayLineInterpolationTypes::Lagrange3rd>;
-template class DelayLine<double, DelayLineInterpolationTypes::Lagrange3rd>;
-template class DelayLine<float,  DelayLineInterpolationTypes::Thiran>;
-template class DelayLine<double, DelayLineInterpolationTypes::Thiran>;
+template class JUCE_API DelayLine<float,  DelayLineInterpolationTypes::None>;
+template class JUCE_API DelayLine<double, DelayLineInterpolationTypes::None>;
+template class JUCE_API DelayLine<float,  DelayLineInterpolationTypes::Linear>;
+template class JUCE_API DelayLine<double, DelayLineInterpolationTypes::Linear>;
+template class JUCE_API DelayLine<float,  DelayLineInterpolationTypes::Lagrange3rd>;
+template class JUCE_API DelayLine<double, DelayLineInterpolationTypes::Lagrange3rd>;
+template class JUCE_API DelayLine<float,  DelayLineInterpolationTypes::Thiran>;
+template class JUCE_API DelayLine<double, DelayLineInterpolationTypes::Thiran>;
 
 } // namespace juce::dsp

@@ -141,7 +141,7 @@ void Chorus<SampleType>::update()
 }
 
 //==============================================================================
-template class Chorus<float>;
-template class Chorus<double>;
+template class JUCE_API Chorus<float>;
+template class JUCE_API Chorus<double>;
 
 } // namespace juce::dsp

@@ -143,7 +143,7 @@ void Panner<SampleType>::update()
 }
 
 //==============================================================================
-template class Panner<float>;
-template class Panner<double>;
+template class JUCE_API Panner<float>;
+template class JUCE_API Panner<double>;
 
 } // namespace juce::dsp

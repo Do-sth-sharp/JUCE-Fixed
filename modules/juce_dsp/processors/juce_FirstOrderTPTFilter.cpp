@@ -122,7 +122,7 @@ void FirstOrderTPTFilter<SampleType>::update()
 }
 
 //==============================================================================
-template class FirstOrderTPTFilter<float>;
-template class FirstOrderTPTFilter<double>;
+template class JUCE_API FirstOrderTPTFilter<float>;
+template class JUCE_API FirstOrderTPTFilter<double>;
 
 } // namespace juce::dsp

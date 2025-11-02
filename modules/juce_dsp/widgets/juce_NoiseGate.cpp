@@ -129,7 +129,7 @@ void NoiseGate<SampleType>::update()
 }
 
 //==============================================================================
-template class NoiseGate<float>;
-template class NoiseGate<double>;
+template class JUCE_API NoiseGate<float>;
+template class JUCE_API NoiseGate<double>;
 
 } // namespace juce::dsp

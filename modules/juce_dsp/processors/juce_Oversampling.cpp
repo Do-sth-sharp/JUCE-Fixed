@@ -770,7 +770,7 @@ void Oversampling<SampleType>::updateDelayLine()
     delay.setDelay (fractionalDelay);
 }
 
-template class Oversampling<float>;
-template class Oversampling<double>;
+template class JUCE_API Oversampling<float>;
+template class JUCE_API Oversampling<double>;
 
 } // namespace juce::dsp

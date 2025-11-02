@@ -121,7 +121,7 @@ void Compressor<SampleType>::update()
 }
 
 //==============================================================================
-template class Compressor<float>;
-template class Compressor<double>;
+template class JUCE_API Compressor<float>;
+template class JUCE_API Compressor<double>;
 
 } // namespace juce::dsp
